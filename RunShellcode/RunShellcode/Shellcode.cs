@@ -61,7 +61,8 @@ namespace RunShellcode
             }
             finally
             {
-                VirtualFree(pMem, shellcode.Length, AllocationType.Release);
+                if (!fork)
+                    VirtualFree(pMem, shellcode.Length, AllocationType.Release);
             }
 
         }
