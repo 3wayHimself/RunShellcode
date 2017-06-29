@@ -1,4 +1,4 @@
-== RunShellcode ==
+## RunShellcode ##
 
 Simple GUI program when you just want to run some shellcode.
 
@@ -6,7 +6,7 @@ Simple GUI program when you just want to run some shellcode.
 
 FAMFAMFAM silk icons CC BY 3.0
 
-=== Tips ===
+### Tips ###
 
 1. Works on Windows, should work on Linux etc. as well using Mono.
 2. It strips 0x and then any non-hex character (case-insensitive).
